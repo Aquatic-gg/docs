@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Tutorial Intro
 
+This is example modification by Larkyy
+
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started

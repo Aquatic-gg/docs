@@ -85,6 +85,12 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'aquaticCrates',
+          position: 'left',
+          label: 'AquaticCrates',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Aquatic-gg',

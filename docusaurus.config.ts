@@ -91,7 +91,6 @@ const config: Config = {
           position: 'left',
           label: 'AquaticCrates',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Aquatic-gg',
           label: 'GitHub',

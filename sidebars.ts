@@ -63,7 +63,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Basics',
+      label: '📦 Basics',
       collapsible: false,
       collapsed: false,
       items: [
@@ -72,7 +72,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Miscellaneous',
+      label: '🛠️ Miscellaneous',
       collapsible: false,
       collapsed: false,
       items: [
@@ -81,7 +81,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'API',
+      label: '🤖 API',
       collapsible: false,
       collapsed: false,
       items: [

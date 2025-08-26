@@ -76,7 +76,7 @@ const config: Config = {
       title: 'Aquatic Creations',
       logo: {
         alt: 'Aquatic Creations',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {

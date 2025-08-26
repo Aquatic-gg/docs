@@ -61,7 +61,7 @@ const sidebars: SidebarsConfig = {
       label: '💲 Purchase Here',
       href: 'https://aquatic.gg/products/aquaticcrates',
     },
-    { type: 'ref', id: 'aquaticcrates/acrates' },
+    { type: 'doc', id: 'aquaticcrates/acrates' },
     {
       type: 'category',
       label: '📦 Basics',

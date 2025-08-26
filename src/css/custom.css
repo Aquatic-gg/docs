@@ -40,3 +40,7 @@
   --ifm-footer-background-color: #10112a;
   --ifm-breadcrumb-color-active: #6377e9;
 }
+
+.footer {
+  --ifm-footer-background-color: #10112a;
+}

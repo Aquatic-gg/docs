@@ -13,3 +13,7 @@
 .footer--dark {
   --ifm-footer-background-color: #10112a;
 }
+
+[data-doc-id="block-settings"] a {
+  margin-bottom: 30px;
+}

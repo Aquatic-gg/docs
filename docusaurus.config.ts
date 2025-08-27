@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/aquatic-banner.jpg',
+    image: 'img/aquatic-banner.png',
     navbar: {
       title: 'Aquatic Creations',
       logo: {

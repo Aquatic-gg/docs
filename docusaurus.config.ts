@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'AquaticCrates',
-              to: '/docs/aquaticcrates/acrates',
+              to: '/docs/aquaticcrates/acrates-introduction',
             },
           ],
         },

@@ -6,7 +6,7 @@ title: "Introduction"
 
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>
-- Server Version **1.21** (Paper)
+- Server Version: **1.21** (Paper)
 - Dependency Plugins:
       - <span style={{ color: 'red' }}>**REQUIRED**</span> Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
       - <span style={{ color: 'yellow' }}>**OPTIONAL**</span> ModelEngine/BetterModel

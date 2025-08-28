@@ -5,20 +5,20 @@ title: "Introduction"
 # GETTING STARTED
 
 ## INSTALLATION REQUIREMENTS
-- __Java 21__ or newer
-- Server Version __1.21__ (Paper)
+- **Java 21** or newer
+- Server Version **1.21** (Paper)
 - Dependency Plugins:
-      - **REQUIRED** Waves [ Link ] (Will autodownload on fresh install) 
-      - **OPTIONAL** ModelEngine [ Link ]
+      - **REQUIRED** Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
+      - **OPTIONAL** ModelEngine
       - **OPTIONAL** Nexo/ItemsAdder/Oraxen
       - **OPTIONAL** PlaceholderAPI
 
 ## SUPPORT
 
-Need help setting up the plugin? Reach out to us here [ discord link ]
+Need help setting up the plugin? Reach out to us here [Discord Server](https://discord.aquatic.gg)
 
 ## FEATURES
-- Crates
+### - Crates
   - Holograms
   - Open Requirements
   - Open Prices
@@ -29,11 +29,11 @@ Need help setting up the plugin? Reach out to us here [ discord link ]
   - Fail Open Animations
   - Open Animations
 
-- Reroll
+### - Reroll
   - Inventory Reroll Type
   - Interaction Reroll Type
 
-- Interactables
+### - Interactables
   - Being able to merge different visuals
   - ModelEngine Visual
   - Item Display Visual
@@ -43,7 +43,7 @@ Need help setting up the plugin? Reach out to us here [ discord link ]
   - Opening crate just by interacting the key
   - Opening preview just by interacting the key
 
-- Advanced Animations System
+### - Advanced Animations System
   - Scriptable animation actions
   - Entity animations
   - Inventory animations
@@ -55,7 +55,7 @@ Need help setting up the plugin? Reach out to us here [ discord link ]
   - Oraxen Integration
   - PAPI Integration
 
-- Rewards
+### - Rewards
   - Mass Opening
   - Mass Open Final Actions
   - Mass Open Per Reward Actions
@@ -68,5 +68,5 @@ Need help setting up the plugin? Reach out to us here [ discord link ]
   - Rewards Menu
   - Admin menu to view reward logs
     
-- Milestones
+### - Milestones
   - Repeatable & Static Milestones

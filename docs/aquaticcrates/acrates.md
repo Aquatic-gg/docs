@@ -19,10 +19,6 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
 
 :::
 
-## SUPPORT
-
-Need help setting up the plugin? Reach out to us here. [Discord Server](https://discord.aquatic.gg)
-
 ## FEATURES
 
 ### CRATES

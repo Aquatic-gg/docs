@@ -29,7 +29,7 @@
   --ifm-card-background-color: #121212;
 }
 
-html {
+.main-wrapper {
   background: var(--ifm-background-color);
 }
 

@@ -15,10 +15,11 @@ title: "Introduction"
 
 ## SUPPORT
 
-Need help setting up the plugin? Reach out to us here [Discord Server](https://discord.aquatic.gg)
+Need help setting up the plugin? Reach out to us here. [Discord Server](https://discord.aquatic.gg)
 
 ## FEATURES
-### - Crates
+
+### CRATES
   - Holograms
   - Open Requirements
   - Open Prices
@@ -29,11 +30,11 @@ Need help setting up the plugin? Reach out to us here [Discord Server](https://d
   - Fail Open Animations
   - Open Animations
 
-### - Reroll
+### REROLL
   - Inventory Reroll Type
   - Interaction Reroll Type
 
-### - Interactables
+### INTERACTABLES
   - Being able to merge different visuals
   - ModelEngine Visual
   - Item Display Visual
@@ -43,7 +44,7 @@ Need help setting up the plugin? Reach out to us here [Discord Server](https://d
   - Opening crate just by interacting the key
   - Opening preview just by interacting the key
 
-### - Advanced Animations System
+### ADVANCED ANIMATIONS
   - Scriptable animation actions
   - Entity animations
   - Inventory animations
@@ -55,7 +56,7 @@ Need help setting up the plugin? Reach out to us here [Discord Server](https://d
   - Oraxen Integration
   - PAPI Integration
 
-### - Rewards
+### REWARDS SYSTEM
   - Mass Opening
   - Mass Open Final Actions
   - Mass Open Per Reward Actions
@@ -68,5 +69,5 @@ Need help setting up the plugin? Reach out to us here [Discord Server](https://d
   - Rewards Menu
   - Admin menu to view reward logs
     
-### - Milestones
+### MILESTONES
   - Repeatable & Static Milestones

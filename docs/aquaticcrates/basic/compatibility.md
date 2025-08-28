@@ -2,7 +2,7 @@
 We aim to support as many plugins as possible. If you are looking for us to add a new plugin to support please let us know in our discord!
 
 ## MODELENGINE
-To specify ModelEngine you need to define it in the type. Then the model id is the same as the .bb file name.
+To specify ModelEngine you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
 ```
   - type: MODELENGINE
@@ -12,7 +12,7 @@ To specify ModelEngine you need to define it in the type. Then the model id is t
 You are also able to define animations in the animation section by doing `animation: <name>`. More info in the animation docs section.
 
 ## BETTERMODEL
-To specify BetterModel you need to define it in the type. Then the model id is the same as the .bb file name.
+To specify BetterModel you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
 ```
   - type: BETTERMODEL

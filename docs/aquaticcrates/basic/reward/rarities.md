@@ -32,7 +32,7 @@ rewards:
 
 :::tip
 
-Add %rarity% into the preview reward-lore to give more info to players. Check if out here **ADD LINK**
+Add %rarity% into the preview reward-lore to give more info to players. Check it out here **ADD LINK**
 
 :::
 

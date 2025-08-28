@@ -5,13 +5,13 @@ title: "Introduction"
 # GETTING STARTED
 
 ## INSTALLATION REQUIREMENTS
-- **Java 21** or newer
+- **Java 21** or <p style="color: green;">newer</p>
 - Server Version **1.21** (Paper)
 - Dependency Plugins:
-      - **REQUIRED** Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
-      - **OPTIONAL** ModelEngine/BetterModel
-      - **OPTIONAL** Nexo/ItemsAdder/Oraxen
-      - **OPTIONAL** PlaceholderAPI
+      - <p style="color: red;">**REQUIRED**</p> Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
+      - <p style="color: yellow;">**OPTIONAL**</p> ModelEngine/BetterModel
+      - <p style="color: yellow;">**OPTIONAL**</p> Nexo/ItemsAdder/Oraxen
+      - <p style="color: yellow;">**OPTIONAL**</p> PlaceholderAPI
 
 ## SUPPORT
 

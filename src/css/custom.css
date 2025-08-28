@@ -37,10 +37,10 @@
 }
 
 .footer {
-  background: var(--footer-color);
+  background: var(--footer-background);
 }
 .navbar {
-  background: var(--navbar-color);
+  background: var(--navbar-background);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -63,8 +63,11 @@
   --ifm-pagination-nav-color-hover: #6377e9;
   --ifm-footer-link-hover-color: #6377e9;
   --ifm-background-surface-color: #10112a;
-  --ifm-background-color: radial-gradient(circle at center, #6a11cb 0%, #2575fc 100%); 
+  --ifm-background-color: #121212; 
   --ifm-card-background-color: #121212;
+  
+  --footer-background: radial-gradient(circle at center, #1a1b3f 0%, #10112a 100%);
+  --navbar-background: radial-gradient(circle at center, #1a1b3f 0%, #10112a 100%);
 }
 
 .footer {

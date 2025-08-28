@@ -13,6 +13,12 @@ title: "Introduction"
       - <span style={{ color: 'yellow' }}>**OPTIONAL**</span> Nexo/ItemsAdder/Oraxen
       - <span style={{ color: 'yellow' }}>**OPTIONAL**</span> PlaceholderAPI
 
+:::info
+
+Need help setting up the plugin? Reach out to us here. [Discord Server](https://discord.aquatic.gg)
+
+:::
+
 ## SUPPORT
 
 Need help setting up the plugin? Reach out to us here. [Discord Server](https://discord.aquatic.gg)

@@ -20,6 +20,7 @@ rarities:
 Then you need to define which items are a certain rarity within each configured reward. Here is how it's done:
 
 ```
+rewards:
   rewardname:
     item:
       material: IRON_INGOT

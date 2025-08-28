@@ -36,7 +36,7 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
 
 ### INTERACTABLES
   - Being able to merge different visuals
-  - ModelEngine Visual
+  - ModelEngine/BetterModel Visual
   - Item Display Visual
   - Entity Visual
   - Block Visual
@@ -51,6 +51,7 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
   - Block animations
   - Model animations
   - ModelEngine Integration
+  - BetterModel Integration
   - Nexo Integration
   - ItemsAdder Integration
   - Oraxen Integration

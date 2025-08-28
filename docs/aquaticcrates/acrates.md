@@ -9,7 +9,7 @@ title: "Introduction"
 - Server Version **1.21** (Paper)
 - Dependency Plugins:
       - **REQUIRED** Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
-      - **OPTIONAL** ModelEngine
+      - **OPTIONAL** ModelEngine/BetterModel
       - **OPTIONAL** Nexo/ItemsAdder/Oraxen
       - **OPTIONAL** PlaceholderAPI
 

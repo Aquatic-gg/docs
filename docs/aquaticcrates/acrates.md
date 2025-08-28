@@ -2,9 +2,9 @@
 id: "acrates-introduction"
 title: "Introduction"
 ---
-# Getting Started With Aquatic Crates
+# GETTING STARTED
 
-**Installation Requirements**
+## INSTALLATION REQUIREMENTS
 - __Java 21__ or newer
 - Server Version __1.21__ (Paper)
 - Dependency Plugins:
@@ -13,10 +13,11 @@ title: "Introduction"
       - **OPTIONAL** Nexo/ItemsAdder/Oraxen
       - **OPTIONAL** PlaceholderAPI
 
-**Support**
+## SUPPORT
+
 Need help setting up the plugin? Reach out to us here [ discord link ]
 
-**Features**
+## FEATURES
 - Crates
   - Holograms
   - Open Requirements

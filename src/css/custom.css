@@ -70,6 +70,22 @@
   --navbar-background: radial-gradient(circle at center, #1a1b3f 0%, #10112a 100%);
 }
 
+button[aria-label="Collapse sidebar"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-left: 5px;
+  background: var(--footer-background);
+}
+
+
+div[aria-label="Expand sidebar"] {
+  height: 90%;
+  top: 6.5vh;
+  border-radius: 10px;
+  background: var(--footer-background);
+}
+
 .footer {
   --ifm-footer-background-color: #10112a;
 }

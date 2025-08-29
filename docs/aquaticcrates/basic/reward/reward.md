@@ -71,16 +71,22 @@ Rewards are extremely configurable and are created with the user in mind. Have a
 `amount: 1`
   - The amount of the item (int amount). Also useful for give-item.
 
-`enchants:
- - EFFICIENCY:1`
+```
+enchants:
+ - EFFICIENCY:1
+```
   - Adds the ability to define an enchant onto the item. SPIGOTAPI LINK
 
-`flags:
- - HIDE_ATTRIBUTES`
+```
+flags:
+ - HIDE_ATTRIBUTES
+```
   - Item flags. SPIGOTAPI LINK
 
-`lore:
- - "<gray>Example lore"`
+```
+lore:
+ - "<gray>Example lore"
+```
   - The lore of the item. Uses minimessage formatting.
 
 `give-item: false`

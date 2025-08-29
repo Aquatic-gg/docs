@@ -44,19 +44,19 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
   **`<crate>`**
     - Crate ID or `all`.
 
-  **<player>**
+  **`<player>`**
     - Player name or can be `self`.
 
-  **<timeframe>**
+  **`<timeframe>`**
     - Timeframe options are: `daily`, `weekly`, `monthly`, `alltime`.
 
-  **<time-in-ticks**
+  **`<time-in-ticks>`**
     - Int amount based on ticks.
 
-  **<place>**
+  **`<place>`**
     - Leaderboard place. For example "1", "5" etc (int amount).
 
-  **<milestone>
+  **`<milestone>`**
     - ID Name of a milestone.
 
 

@@ -41,7 +41,7 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
 ### KEY
 
-  **<crate>**
+  **`<crate>`**
     - Crate ID or `all`.
 
   **<player>**

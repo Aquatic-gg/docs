@@ -95,16 +95,16 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
   - Returns the player name from the last won reward in a specified position on the latest reward winners list for the given crate.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_reached%`
-  - 
+  - Returns yes/no if the milestone was reached.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_remaining%`
-  - 
+  - Returns the int amount until the next milestone.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_name%`
-  - 
+  - Returns the display name of the milestone.
 
 `%aquaticcrates_repeatable-milestone_<crate>_<milestone>_remaining%`
-  - 
+  - Returns the int amount until the next repeatable milestone.
 
 `%aquaticcrates_repeatable-milestone_<crate>_<milestone>_name%`
-  - 
+  - Returns the display name of the next repeatable milestone.

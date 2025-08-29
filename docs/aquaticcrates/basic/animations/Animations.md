@@ -1,5 +1,3 @@
-import Page from '@site/src/components/PageFeature';
-
 # Animations
 
 In AquaticCrates there are 3 different types of general animations.

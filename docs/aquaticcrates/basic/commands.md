@@ -57,7 +57,7 @@ All commands require `aquaticcrates.admin` to use.
   `acrates reload`
     - Reload the plugin asynchronously
 
-  `acrates rewardmenu` (Being worked on)
+  `acrates rewardmenu`
     - Opens rewards that were given when a player's inventory was full.
 
   `waves itemconvert`

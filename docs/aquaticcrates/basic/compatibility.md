@@ -39,6 +39,9 @@ To specify using Oraxen as a key or a reward it's very simple!
 ## PLACEHOLDERAPI
 You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) in order to parse these placeholders.
 
+## MINIMESSAGE
+The entire plugin uses minimessage formatting for all colors/gradients. View the format [HERE](https://docs.advntr.dev/minimessage/format.html)
+
 ### KEY
 
   **`<crate>`**

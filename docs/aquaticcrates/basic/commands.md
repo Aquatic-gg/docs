@@ -13,20 +13,20 @@ All commands require `aquaticcrates.admin` to use.
 
 ## KEY
 
-    **<id>**
-        - The id is the name of the file. (ex. "demo1")
+  **`<id>`**
+    - The id is the name of the file. (ex. "demo1")
     
-    **<player**
-        - Player name. (ex. "ColdSight21")
+  **`<player>`**
+    - Player name. (ex. "ColdSight21")
   
-    **<amount>**
-        - An int amount. (ex. "5")
+  **`<amount>`**
+    - An int amount. (ex. "5")
 
-    **[Flg]** (Optional) 
-        - Options: `-nokey` (doesn't require key)/`-instant` (open instantly)/`-s` (Give silently)/`-v` (Virtual key) Flags are able to be stacked.
+  **`[Flg]`** (Optional) 
+    - Options: `-nokey` (doesn't require key)/`-instant` (open instantly)/`-s` (Give silently)/`-v` (Virtual key) Flags are able to be stacked.
 
-    **[Thd]** (Optional)
-        - Amount of cpu threads. This is used for the mass open command.
+  **`[Thd]`** (Optional)
+      - Amount of cpu threads. This is used for the mass open command.
     
   
 ## MORE COMMANDS

@@ -60,6 +60,7 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
     - ID Name of a milestone.
 
 
+### PLACEHOLDERS
 
 `%aquaticcrates_keys_<player>_<crate>%`
    - Returns the number of virtual keys a player has.

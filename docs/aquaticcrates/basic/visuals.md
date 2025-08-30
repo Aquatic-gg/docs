@@ -10,7 +10,7 @@ You are also able to stack multiple types of interactables together for example 
 
 ## MODELENGINE
 
-```
+```yml
 interactables:
   - type: MODELENGINE
     model: aquaticcrate1 #.bb file name
@@ -19,7 +19,7 @@ interactables:
 
 ## BETTERMODEL
 
-```
+```yml
 interactables:
   - type: BETTERMODEL
     model: aquaticcrate1 #.bb file name
@@ -28,7 +28,7 @@ interactables:
 
 ## BLOCKS
 
-```
+```yml
 interactables:
   - type: BLOCK
     material: BARRIER #Block type

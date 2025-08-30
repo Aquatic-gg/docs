@@ -7,7 +7,7 @@ title: Interactions
 
 Using interactions you can modify what will happen when interacting with the crate. Here's a short example of how it works by default (doesn't need to be added to the crate config to work).
 
-```
+```yml
 interaction:
   RIGHT: # Click type
     type: "open-crate" # Action type
@@ -39,7 +39,7 @@ interaction:
 - `execute-actions`
     - Execute any amount of actions. Find the list here. Here is an example action:
 
-```
+```yml
   SHIFT_LEFT:
     type: "execute-actions"
     actions:

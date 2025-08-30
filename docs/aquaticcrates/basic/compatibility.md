@@ -40,6 +40,17 @@ To specify using Oraxen as a key or a reward it's very simple!
 
 `material: oraxen:<id>`
 
+## COMET
+Comet is a highly advanced particle system utilizing custom particles via a resource pack. [Join Discord To Purchase](https://discord.aquatic.gg)
+
+```yml
+      - type: "show-comet-particle"
+        id: example
+        emitter: black_hole_implosion_init #id
+        offset: "0;1.5;0"
+```
+Within the animations.
+
 ## PLACEHOLDERAPI
 You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) in order to parse these placeholders.
 

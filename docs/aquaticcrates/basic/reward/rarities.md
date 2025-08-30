@@ -7,7 +7,7 @@ Define rarities to individual rewards to increase certain chances!
 
 In order to create rarities you need to define the rarity name, chance, and display name. This is done outside of any section.
 
-```
+```yml
 rarities:
   common:
     chance: 50
@@ -23,7 +23,7 @@ rarities:
 ```
 Then you need to define which items are a certain rarity within each configured reward. Here is how it's done:
 
-```
+```yml
 rewards:
   rewardname:
     item:

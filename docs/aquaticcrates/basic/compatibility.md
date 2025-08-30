@@ -8,7 +8,7 @@ We aim to support as many plugins as possible. If you are looking for us to add 
 ## MODELENGINE
 To specify ModelEngine you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
-```
+```yml
   - type: MODELENGINE
     model: iron_crate_1
 ```
@@ -18,7 +18,7 @@ You are also able to define animations in the animation section by doing `animat
 ## BETTERMODEL
 To specify BetterModel you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
-```
+```yml
   - type: BETTERMODEL
     model: iron_crate_1
 ```

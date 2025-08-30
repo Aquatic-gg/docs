@@ -1,3 +1,7 @@
+---
+title: Mass Opening
+---
+
 # MASS OPEN
 
 Mass opening allows players to open any amount of keys all at once and bypasses any crate animation. Extremely useful if your server gives out tens to hundreds of keys easily.

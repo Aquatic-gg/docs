@@ -1,8 +1,12 @@
+---
+title: Milestones
+---
+
 # MILESTONES
 
 There are 2 types of milestones in Aquatic Crates. A regular milestone and a repeatable milestone. Milestones allow you to give specified rewards once after a player has opened X rewards. Repeatable milestones allow you to give specified rewards multiple times, for example every 2 reward.
 
-Placeholders for milestones can be found here. ADD LINK
+Placeholders for milestones can be found here. <Page url="docs/aquaticcrates/basic/compatibility.md">Click to view.</Page>
 
 ## MILESTONES EXAMPLE
 

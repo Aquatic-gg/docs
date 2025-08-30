@@ -1,3 +1,7 @@
+---
+title: Rarities
+---
+
 # RARITIES
 Define rarities to individual rewards to increase certain chances! 
 

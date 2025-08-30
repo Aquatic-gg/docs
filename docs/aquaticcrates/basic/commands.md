@@ -1,3 +1,7 @@
+---
+title: Commands
+---
+
 # COMMANDS
 Base command alias:
 - aquaticcrates

@@ -1,3 +1,7 @@
+---
+title: Rewards
+---
+
 # REWARDS SYSTEM
 
 Rewards on Aquatic Crates are extremely configurable. Take a look down below on all the options.

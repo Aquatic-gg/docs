@@ -1,3 +1,8 @@
+---
+title: Interactions
+---
+
+
 # INTERACTIONS
 
 Using interactions you can modify what will happen when interacting with the crate. Here's a short example of how it works by default (doesn't need to be added to the crate config to work).

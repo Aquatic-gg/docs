@@ -34,7 +34,7 @@ interaction:
     - Open crate instantly skipping animation.
 - `preview-crate`
     - Preview crate rewards.
-- `destroy-crate'
+- `destroy-crate`
     - Destroy the crate. Requires `aquaticcrates.admin`.
 - `execute-actions`
     - Execute any amount of actions. Find the list here. Here is an example action:

@@ -44,7 +44,7 @@ example for condition here
 ## HOLOGRAM EXAMPLES
 
 Static Hologram:
-```
+```yml
 hologram:
   offset: "0;2;0"
   lines:
@@ -60,7 +60,7 @@ hologram:
 ```
 
 Animated Hologram:
-```
+```yml
 hologram:
   offset: "0;3;0"
   lines:

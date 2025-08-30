@@ -1,3 +1,7 @@
+---
+title: Visuals
+---
+
 # VISUALS
 
 Our plugin has a special system called "interactables" which allows for multiple types of visuals. It includes ModelEngine, BetterModel, entities, and blocks.

@@ -1,3 +1,7 @@
+---
+title: Rarities
+---
+
 # RARITIES
 Define rarities to individual rewards to increase certain chances! 
 
@@ -15,7 +19,7 @@ rarities:
     chance: 20
     display-name: "<#83D1F1>Rare"
 
-  etc etc
+  ...
 ```
 Then you need to define which items are a certain rarity within each configured reward. Here is how it's done:
 

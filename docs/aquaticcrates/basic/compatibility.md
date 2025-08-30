@@ -1,3 +1,7 @@
+---
+title: Compatibility
+---
+
 # COMPATIBILITY
 We aim to support as many plugins as possible. If you are looking for us to add a new plugin to support please let us know in our discord!
 
@@ -39,6 +43,9 @@ To specify using Oraxen as a key or a reward it's very simple!
 ## PLACEHOLDERAPI
 You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) in order to parse these placeholders.
 
+## MINIMESSAGE
+The entire plugin uses minimessage formatting for all colors/gradients. View the format [HERE](https://docs.advntr.dev/minimessage/format.html)
+
 ### KEY
 
   **`<crate>`**
@@ -60,6 +67,7 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
     - ID Name of a milestone.
 
 
+### PLACEHOLDERS
 
 `%aquaticcrates_keys_<player>_<crate>%`
    - Returns the number of virtual keys a player has.
@@ -95,16 +103,16 @@ You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
   - Returns the player name from the last won reward in a specified position on the latest reward winners list for the given crate.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_reached%`
-  - 
+  - Returns yes/no if the milestone was reached.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_remaining%`
-  - 
+  - Returns the int amount until the next milestone.
 
 `%aquaticcrates_milestone_<crate>_<milestone>_name%`
-  - 
+  - Returns the display name of the milestone.
 
 `%aquaticcrates_repeatable-milestone_<crate>_<milestone>_remaining%`
-  - 
+  - Returns the int amount until the next repeatable milestone.
 
 `%aquaticcrates_repeatable-milestone_<crate>_<milestone>_name%`
-  - 
+  - Returns the display name of the next repeatable milestone.

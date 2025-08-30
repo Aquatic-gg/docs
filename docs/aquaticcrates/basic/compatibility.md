@@ -41,7 +41,7 @@ To specify using Oraxen as a key or a reward it's very simple!
 `material: oraxen:<id>`
 
 ## COMET
-Comet is a highly advanced particle system utilizing custom particles via a resource pack. [Join Discord To Purchase](https://discord.aquatic.gg)
+Comet (made by us) is a highly advanced particle system utilizing custom particles via a resource pack. [Join Discord To Purchase](https://discord.aquatic.gg)
 
 ```yml
       - type: "show-comet-particle"

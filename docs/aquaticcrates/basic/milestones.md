@@ -28,7 +28,7 @@ milestones:
             message: "You have reached milestone 1"
 
   800: # 800th opening (given just once)
-    etc etc
+    ...
 ```
 
 This example shows how you are able to configure to give a reward once a player reaches 400 crate openings. Milestones are able to be added multiple times as seen below the code block showcasing at the 800th opening. 

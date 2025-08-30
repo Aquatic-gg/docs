@@ -21,10 +21,10 @@ interaction:
 
 ## INTERACTION TYPES
 
-- LEFT
-- SHIFT_LEFT
-- RIGHT
-- SHIFT_LEFT
+- `LEFT`
+- `SHIFT_LEFT`
+- `RIGHT`
+- `SHIFT_LEFT`
 
 ## ACTION TYPES
 

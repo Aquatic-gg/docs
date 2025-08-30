@@ -14,7 +14,7 @@ Mass opening allows players to open any amount of keys all at once and bypasses 
 `final-tasks`
     - Runs the final actions once the mass opening is complete
 
-`%total-won-excluded`
+`%total-won-excluded%`
     - Returns an int of the amount of rewards that were given in the mass open
 
 `%amount%`

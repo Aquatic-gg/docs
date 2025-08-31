@@ -46,7 +46,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Aquatic-gg/',
-          routeBasePath: "/"
+          routeBasePath: "/",
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {

@@ -8,7 +8,7 @@ We aim to support as many plugins as possible. If you are looking for us to add 
 ## MODELENGINE
 To specify ModelEngine you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
-```
+```yml
   - type: MODELENGINE
     model: iron_crate_1
 ```
@@ -18,7 +18,7 @@ You are also able to define animations in the animation section by doing `animat
 ## BETTERMODEL
 To specify BetterModel you need to define it in the type (refer to interactable section). Then the model id is the same as the .bb file name.
 
-```
+```yml
   - type: BETTERMODEL
     model: iron_crate_1
 ```
@@ -39,6 +39,17 @@ To specify using ItemsAdder as a key or a reward it's very simple!
 To specify using Oraxen as a key or a reward it's very simple!
 
 `material: oraxen:<id>`
+
+## COMET
+Comet (made by us) is a highly advanced particle system utilizing custom particles via a resource pack. [Join Discord To Purchase](https://discord.aquatic.gg)
+
+```yml
+      - type: "show-comet-particle"
+        id: example
+        emitter: black_hole_implosion_init #id
+        offset: "0;1.5;0"
+```
+Within the animations.
 
 ## PLACEHOLDERAPI
 You must install [PAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) in order to parse these placeholders.

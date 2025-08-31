@@ -10,7 +10,7 @@ Placeholders for milestones can be found here. <Page url="docs/aquaticcrates/bas
 
 ## MILESTONES EXAMPLE
 
-```
+```yml
 milestones:
   400: # 400th opening (given just once)
     display-name: "example milestone"
@@ -35,7 +35,7 @@ This example shows how you are able to configure to give a reward once a player 
 
 ## REPEATABLE MILESTONES EXAMPLE
 
-```
+```yml
 repeatable-milestones:
   2: # Every 2 openings
     display-name: "example milestone"

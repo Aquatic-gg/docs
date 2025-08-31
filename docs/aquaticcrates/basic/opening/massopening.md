@@ -14,7 +14,7 @@ Mass opening allows players to open any amount of keys all at once and bypasses 
 `final-tasks`
     - Runs the final actions once the mass opening is complete
 
-`%total-won-excluded`
+`%total-won-excluded%`
     - Returns an int of the amount of rewards that were given in the mass open
 
 `%amount%`
@@ -25,7 +25,7 @@ Mass opening allows players to open any amount of keys all at once and bypasses 
 
 ## EXAMPLE
 
-```
+```yml
 mass-open:
   final-tasks:
     - type: message
@@ -37,7 +37,7 @@ mass-open:
 
 Once the above section has been added you then also have the option in each reward configuration to disable individual actions that each reward runs. By default every reward action is ran.
 
-```
+```yml
 rewards:
   examplereward:
     item:

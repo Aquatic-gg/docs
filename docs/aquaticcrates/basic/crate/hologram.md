@@ -10,8 +10,8 @@ Utilizing new display entities you are now able to customize holograms even furt
 
 - `offset: "0;0;0"`
     - Offset of the hologram location. X;Y;Z
-- `type: "text/animated/item"`
-    - There are 3 options for the type of hologram. Text uses the normal text display, animated combines multiple of either item/text/both, and item displays an item.
+- `type: "text"`
+    - There are 3 options for the type of hologram. `text` uses the normal text display, `animated` combines multiple of either item/text/both, and `item` displays an item. 
 - `text: "line1\nline2"`
     - The text displayed on the hologram. Use `\n` for a new line on the hologram.
 - `line-width: 175`
@@ -44,7 +44,7 @@ example for condition here
 ## HOLOGRAM EXAMPLES
 
 Static Hologram:
-```
+```yml
 hologram:
   offset: "0;2;0"
   lines:
@@ -60,7 +60,7 @@ hologram:
 ```
 
 Animated Hologram:
-```
+```yml
 hologram:
   offset: "0;3;0"
   lines:

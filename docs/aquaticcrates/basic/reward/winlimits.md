@@ -6,7 +6,7 @@ title: Win Limits
 
 This feature allows you to set rewards to be won either globally or individually a certain amount of times. Look down below for an example setup.
 
-```
+```yml
 rewards:
   exampleReward:
     ...

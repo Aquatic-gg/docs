@@ -13,7 +13,7 @@ Possible rewards is a range that can be set (min-max) and random amount is gener
 
 You can also create groups of ranges with given chances, so the plugin chooses the chance group first and then generates the random amount of that group.
 
-```
+```yml
 possible-rewards:
   - min: 1
     max: 2
@@ -23,7 +23,7 @@ possible-rewards:
 Having min set to 1 and max to 2 means that the player can win 1-2 rewards from the crate that are randomly chosen
 
 
-```
+```yml
 possible-rewards:
   - min: 1
     max: 1
@@ -34,7 +34,7 @@ Having min set to 1 and max to 1 means that the player can win only 1 reward
 
 ### OTHER POSSIBLE REWARD EXAMPLES
 
-```
+```yml
 possible-rewards:
   - min: 1
     max: 1
@@ -50,7 +50,7 @@ possible-rewards:
     chance: 25
 ```
 
-```
+```yml
 possible-rewards:  
   - min: 1
     max: 2

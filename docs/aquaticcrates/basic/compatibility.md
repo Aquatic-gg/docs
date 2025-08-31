@@ -77,7 +77,6 @@ The entire plugin uses minimessage formatting for all colors/gradients. View the
   **`<milestone>`**
     - ID Name of a milestone.
 
-
 ### PLACEHOLDERS
 
 `%aquaticcrates_keys_<player>_<crate>%`

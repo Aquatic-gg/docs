@@ -15,14 +15,14 @@ Using those animations you can completely modify overall crate behavior to your 
 ## Open Animations
 Using open animations you setup how's overall opening phase going to look like.
 
-<Page url="/docs/aquaticcrates/basic/animations/openanimation">Open Animation</Page>
+<Page url="aquaticcrates/basic/animations/openanimation">Open Animation</Page>
 
 ## Fail Animations
 Fail animations are being used when a player does not meet certain conditions, like not having a key, having full inventory, etc.
 
-<Page url="/docs/aquaticcrates/basic/animations/failanimation">Fail Animation</Page>
+<Page url="aquaticcrates/basic/animations/failanimation">Fail Animation</Page>
 
 ## Idle Animations
 Idle animations are simply for idling, when you want to spice up crate sorroundings.
 
-<Page url="/docs/aquaticcrates/basic/animations/idleanimation">Idle Animation</Page>
+<Page url="aquaticcrates/basic/animations/idleanimation">Idle Animation</Page>

@@ -43,8 +43,6 @@ Rewards on Aquatic Crates are extremely configurable. Take a look down below on 
 <details>
   <summary>Advanced reward config example</summary>
 
-  Something here...
-
   ```yml
   possible-rewards:
   - min: 1
@@ -157,20 +155,50 @@ Having min set to 1 and max to 1 means that the player can win only 1 reward
 </details>
 
 ## AMOUNT RANGES
+Amount ranges syntax is pretty much the same as Amount Ranges.
+Using amount ranges you can generate a random amount for your reward.
+Each amount range is separated into its own group with chance, so you can make higher numbers more rare.
+
+```yml
+amount-ranges:
+  - min: 1
+    max: 100000
+    chance: 100
+```
 
 ## REWARD SHOWCASE
+
+Reward showcase is a relatively new system which simplifies how rewards are displayed in animations. It gives the option to change every single reward and how it handles. For example: type, interactable, hologram, and more...
 
 <Page url="aquaticcrates/basic/reward/rewardshowcase">Reward Showcase</Page>
 
 ## RARITIES
 
+Define rarities to individual rewards to increase certain chances! 
+
 <Page url="aquaticcrates/basic/reward/rarities">Reward Rarities</Page>
 
 ## LIMITS
 
+This feature allows you to set rewards to be won either globally or individually a certain amount of times. 
+
 <Page url="aquaticcrates/basic/reward/winlimits">Win Limits</Page>
 
 ## REQUIREMENTS
+
+Using requirements you can setup extra conditions in order to be able to win a reward!
+
+```yml
+examplereward:
+  item:
+    ...
+  requirements:
+    - type: permission
+      permission: "example.permission"
+```
+
+**Global options:**
+- ``negate`` - negates the condition (true becomes false and false becomes true)
 
 ## VARIABLES
 

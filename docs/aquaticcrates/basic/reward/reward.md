@@ -99,6 +99,35 @@ Rewards on Aquatic Crates are extremely configurable. Take a look down below on 
   
 </details>
 
+## ITEM
+
+The item is basically the key item of your reward!
+You can disable the item giving and let them item to be used just for preview, etc.
+
+### Disable giving
+In order to disable giving the item, set ``give-item`` to false
+
+```yml
+give-item: false
+```
+
+### Other Settings
+All item options can be found here:
+
+<Page url="aquaticcrates/miscellaneous/itemsettings"></Page>
+
+## Chance
+Chance of the item can exceed 100.0 and is a floating number.
+The chance gets automatically calculated, so you do not have to have reward chances sum of 100.
+
+If you are using [Rarities](#rarities), the base chance is being used from there and then the reward chance is being used.
+
+If you want to have chances just from rarities, simply set reward chance to 1.
+
+```yml
+chance: 1
+```
+
 ## POSSIBLE REWARDS
 
 Possible rewards is a range that can be set (min-max) and random amount is generated while opening the crate.
@@ -165,6 +194,8 @@ amount-ranges:
     max: 100000
     chance: 100
 ```
+
+In order to retrieve the amount generated in actions, simply use ``%random-amount%`` placeholder.
 
 ## REWARD SHOWCASE
 

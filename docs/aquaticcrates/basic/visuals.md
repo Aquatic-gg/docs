@@ -17,6 +17,10 @@ interactables:
     offset: "0;0;0" #X, Y, Z
 ```
 
+**Options**
+- ``model`` - Model ID from ModelEngine
+- ``offset`` - Location offset from the base location (Location of where's the crate placed)
+
 ## BETTERMODEL
 
 ```yml
@@ -25,6 +29,10 @@ interactables:
     model: aquaticcrate1 #.bb file name
     offset: "0;0;0" #X, Y, Z
 ```
+
+**Options**
+- ``model`` - Model ID from BetterModel
+- ``offset`` - Location offset from the base location (Location of where's the crate placed)
 
 ## BLOCKS
 
@@ -38,6 +46,11 @@ interactables:
     face: UP #Faces the shulker pointing up
     offset: "0;1;0" #X, Y, Z
 ```
+
+**Options**
+- ``material`` - Material of the block
+- ``offset`` - Location offset from the base location (Location of where's the crate placed)
+- Read more about Block settings on the **Block Settings** page!
 
 <Page url="/docs/aquaticcrates/miscellaneous/blocksettings">Block Settings</Page>
 
@@ -68,6 +81,30 @@ interactables:
     billboard: FIXED
 ```
 
+**Options**
+  - ``material`` - Material of the item
+  - ``offset`` - Location offset from the base location (Location of where's the crate placed)
+  - ``item-transform`` - display tranform
+  
+    Options:
+      - NONE
+      - THIRDPERSON_LEFTHAND
+      - THIRDPERSON_RIGHTHAND
+      - FIRSTPERSON_LEFTHAND
+      - FIRSTPERSON_RIGHTHAND
+      - HEAD
+      - GUI
+      - GROUND
+      - FIXED
+  - ``scale`` - Scale of the display
+  - ``billboard``
+
+    Options:
+      - FIXED
+      - VERTICAL
+      - HORIZONTAL
+      - CENTER
+
 ## NPC
 
 ```yml
@@ -78,3 +115,9 @@ interactasbles:
       value: <the skin value>
       signature: <the skin signature> # You can use mineskin.org to get those 2 values
 ```
+
+**Options**
+  - ``offset`` - Location offset from the base location (Location of where's the crate placed)
+  - ``skin.value`` - Texture value of the skin (You can get that from mineskin.org)
+  - ``skin.signature`` - Texture signature of the skin (You can get that from mineskin.org)
+  

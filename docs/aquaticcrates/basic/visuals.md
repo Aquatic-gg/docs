@@ -38,3 +38,43 @@ interactables:
     face: UP #Faces the shulker pointing up
     offset: "0;1;0" #X, Y, Z
 ```
+
+<Page url="/docs/aquaticcrates/miscellaneous/blocksettings">Block Settings</Page>
+
+## ENTITY
+
+```yml
+interactables:
+  - type: DISPLAY_ENTITY
+    offset: "0;1;0" #X, Y, Z
+    properties:
+      display-item:
+        material: DIAMOND
+```
+
+**Entity properties page is in progress!**
+
+## ITEM MODEL
+This is a short version of the Entity interactable for spawning the Item Display entity.
+
+```yml
+interactables:
+  - type: ITEM_MODEL
+    offset: "0;1;0" #X, Y, Z
+    item:
+      material: DIAMOND
+    item-transform: NONE
+    scale: "1;1;1"
+    billboard: FIXED
+```
+
+## NPC
+
+```yml
+interactasbles:
+  - type: NPC
+    offset: "0;1;0" #X, Y, Z
+    skin:
+      value: <the skin value>
+      signature: <the skin signature> # You can use mineskin.org to get those 2 values
+```

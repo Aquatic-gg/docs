@@ -236,3 +236,5 @@ examplereward:
 ## PREVIEW FALLBACK ITEM
 
 ## ACTIONS
+
+<Page url="aquaticcrates/miscellaneous/globalactions">Actions</Page>

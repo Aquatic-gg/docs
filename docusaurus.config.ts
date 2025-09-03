@@ -79,6 +79,24 @@ const config: Config = {
           label: 'AquaticCrates',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'eventsMania',
+          position: 'left',
+          label: 'EventsMania',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'sentinel',
+          position: 'left',
+          label: 'Sentinel',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dialogues',
+          position: 'left',
+          label: 'Dialogues',
+        },
+        {
           href: 'https://github.com/Aquatic-gg',
           label: 'GitHub',
           position: 'right',

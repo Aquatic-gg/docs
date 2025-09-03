@@ -47,7 +47,7 @@ const config: Config = {
           editUrl:
             'https://github.com/Aquatic-gg/',
           routeBasePath: "/",
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
         },
         blog: false,
         theme: {

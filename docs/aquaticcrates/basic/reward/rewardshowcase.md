@@ -21,7 +21,7 @@ reward-showcase:
       message: "Reward showcase has been spawned"
   despawn-actions:
     - type: message
-      message: "Reward showcase has been spawned"
+      message: "Reward showcase has been despawned"
 ```
 
 Options:
@@ -53,7 +53,7 @@ reward-showcase:
       message: "Reward showcase has been spawned"
   despawn-actions:
     - type: message
-      message: "Reward showcase has been spawned"
+      message: "Reward showcase has been despawned"
 ```
 
 Options:

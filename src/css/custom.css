@@ -101,10 +101,25 @@ a.table-of-contents__link.toc-highlight:hover {
 
 a.table-of-contents__link.toc-highlight.table-of-contents__link--active {
   color: #00aaff;
-  background: linear-gradient(to right, #151431ff 0%, #15143100 100%);
+  /* background: linear-gradient(to right, #151431ff 0%, #15143100 100%); */
   border-radius: 0.4REM;
+  
+  background: linear-gradient(to right, #1e1c49, #15143100);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 0% 100%;
+  animation: expand-gradient 0.6s ease forwards;
 }
 
 .table-of-contents li ul li a.toc-highlight {
   color: #999999;
+}
+
+@keyframes expand-gradient {
+  0% {
+    background-size: 0% 100%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
 }

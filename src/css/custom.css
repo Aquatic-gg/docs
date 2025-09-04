@@ -89,3 +89,22 @@ div[aria-label="Expand sidebar"] {
 .footer {
   --ifm-footer-background-color: #10112a;
 }
+
+a.table-of-contents__link.toc-highlight {
+  padding: 0.3rem 0.4rem;
+  color: #d7d7d7;
+}
+a.table-of-contents__link.toc-highlight:hover {
+  background-color: #1e1e1e;
+  border-radius: 0.4REM;
+}
+
+a.table-of-contents__link.toc-highlight.table-of-contents__link--active {
+  color: #00aaff;
+  background: linear-gradient(to right, #151431ff 0%, #15143100 100%);
+  border-radius: 0.4REM;
+}
+
+.table-of-contents li ul li a.toc-highlight {
+  color: #999999;
+}

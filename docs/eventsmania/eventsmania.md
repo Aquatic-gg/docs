@@ -2,7 +2,6 @@
 title: "Introduction"
 ---
 # GETTING STARTED
-
 EventsMania is a plugin for simple short-term events (tournaments). You can create any event to your liking such as chat message count, block break, death, etc. Utilizes PAPI support for creating events based off of placeholders. 
 
 ## INSTALLATION REQUIREMENTS
@@ -19,8 +18,6 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
 :::
 
 ## FEATURES
-
-### EVENTS
   - Supports PAPI Placeholders as Events
   - Per tick actions
   - Pre, during, and end actions

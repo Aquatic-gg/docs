@@ -3,6 +3,9 @@ id: "acrates-introduction"
 title: "Introduction"
 ---
 # GETTING STARTED
+Aquatic Crates is a feature rich crate plugin aimed to stretch the boundaries of what crate plugins are able to do. With the ability to create actions from keys, crate interactions, animations and more the customization is endless. 
+
+Want to give yourself a challenge? Use our scripting system in crate animations and make your server one of a kind!
 
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>

@@ -93,6 +93,7 @@ div[aria-label="Expand sidebar"] {
 a.table-of-contents__link.toc-highlight {
   padding: 0.3rem 0.4rem;
   color: #d7d7d7;
+  font-weight: 500;
 }
 a.table-of-contents__link.toc-highlight:hover {
   background-color: #1e1e1e;
@@ -100,8 +101,10 @@ a.table-of-contents__link.toc-highlight:hover {
 }
 
 a.table-of-contents__link.toc-highlight.table-of-contents__link--active {
+  /*
   color: #00aaff;
   /* background: linear-gradient(to right, #151431ff 0%, #15143100 100%); */
+  /*
   border-radius: 0.4REM;
   
   background: linear-gradient(to right, #1e1c49, #15143100);
@@ -109,6 +112,30 @@ a.table-of-contents__link.toc-highlight.table-of-contents__link--active {
   background-position: left center;
   background-size: 0% 100%;
   animation: expand-gradient 0.6s ease forwards;
+  */
+  position: relative;
+  display: inline-block;
+
+  /* Gradient pro text */
+  background: linear-gradient(to right, #00aaff, #0041a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 100%;
+  color: transparent;
+}
+
+a.table-of-contents__link.toc-highlight.table-of-contents__link--active::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #1e1c49, #15143100);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 0% 100%;
+  animation: expand-gradient 0.6s ease forwards;
+  z-index: -1; /* pozadí pod textem */
+  border-radius: 0.4REM;
 }
 
 .table-of-contents li ul li a.toc-highlight {

@@ -10,6 +10,7 @@ Sentinel aims at evolving the standard NPC systems into a more advanced NPC plug
 - Dependency Plugins:
   - <Highlight color="red">**REQUIRED**</Highlight> Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
   - <Highlight color="#213b47">**OPTIONAL**</Highlight> ModelEngine/BetterModel
+  - <Highlight color="#213b47">**OPTIONAL**</Highlight> Nexo/ItemsAdder/Oraxen
   - <Highlight color="#213b47">**OPTIONAL**</Highlight> PlaceholderAPI
 
 :::info
@@ -27,3 +28,4 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
   - NPC Interactables
   - NPC Holograms
   - Player Look At/Off At NPC
+  - Visual States

@@ -21,6 +21,7 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
 
 ## FEATURES
   - ModelEngine/BetterModel Support
+  - Nexo/ItemsAdder/Oraxen Support
   - PlaceholderAPI Support
   - NPC View Conditions
   - Player NPC Click Animations

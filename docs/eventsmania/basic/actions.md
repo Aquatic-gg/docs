@@ -65,7 +65,7 @@ You are able to define actions that occur during the event on each tick. You are
 ```
 
 ## END EVENT ACTIONS
-You are able to define actions that occur after the event on each tick. You are also able to use the internal placeholders for broadcasting the end leaderboard position and IGN. Checkout COMPATIBILITY to view them.
+You are able to define actions that occur after the event. You are also able to use the internal placeholders for broadcasting the end leaderboard position and IGN. Checkout COMPATIBILITY to view them.
 
 ```yml
     end-actions:

@@ -25,3 +25,14 @@ With the support of PAPI placeholders you can create any event to your liking!
     placeholder: "%statistic_crouch_one_cm%"
 ```
 This example uses the `%statistic_crouch_one_cm%` placeholder to create a leaderboard between players.
+
+## INTERNAL ACTION PLACEHOLDERS
+Internal placeholders can be used in Actions.
+
+`%leaderboard-name-<place>%` - Replacing <place> returns the placers IGN in the leaderboard.
+
+`%leaderboard-value-<place>%` - Replacing <place> returns the placers value in the leaderboard. 
+
+`%leaderboard-value-self%` - Returns the players own live value on the active leaderboard. 
+
+`%leaderboard-rank% - Returns the players own leaderboard ranking live.

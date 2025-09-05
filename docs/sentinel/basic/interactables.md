@@ -22,12 +22,12 @@ interactables: []
 player-interactables:
   state1: 
     type: MODELENGINE
-    model: acratesdisplay
+    model: example1
     offset: "0;0.5;0" # X, Y, Z
     spawned-by-default: true
   state2:
     type: MODELENGINE
-    model: discordwumpus2
+    model: example2
     offset: "0;0.0;0" # X, Y, Z
     spawned-by-default: false
 ```

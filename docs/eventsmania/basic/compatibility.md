@@ -29,9 +29,9 @@ This example uses the `%statistic_crouch_one_cm%` placeholder to create a leader
 ## INTERNAL ACTION PLACEHOLDERS
 Internal placeholders can be used in Actions.
 
-`%leaderboard-name-<place>%` - Replacing <place> returns the placers IGN in the leaderboard.
+`%leaderboard-name-<place>%` - Replacing `<place>` returns the placers IGN in the leaderboard.
 
-`%leaderboard-value-<place>%` - Replacing <place> returns the placers value in the leaderboard. 
+`%leaderboard-value-<place>%` - Replacing `<place>` returns the placers value in the leaderboard. 
 
 `%leaderboard-value-self%` - Returns the players own live value on the active leaderboard. 
 

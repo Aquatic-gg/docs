@@ -35,4 +35,4 @@ Internal placeholders can be used in Actions.
 
 `%leaderboard-value-self%` - Returns the players own live value on the active leaderboard. 
 
-`%leaderboard-rank% - Returns the players own leaderboard ranking live.
+`%leaderboard-rank%` - Returns the players own leaderboard ranking live.

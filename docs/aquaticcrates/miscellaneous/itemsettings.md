@@ -19,6 +19,7 @@ lore:
 `material: <ID>`
   - Depending on your server version. This is where you paste your item ID (ex. DIAMOND_AXE). Also involves multiple compatibilities such as replacing &lt;id&gt; with the following: `nexo:<id>`, `itemsadder:<id>`, `oraxen:<id>`, `base64<value>` (Base64 also includes using `/waves itemconvert`). 
 
+---
 
 ## Flags
 

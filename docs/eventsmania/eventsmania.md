@@ -4,6 +4,12 @@ title: "Introduction"
 # GETTING STARTED
 EventsMania is a plugin for simple short-term events (tournaments). You can create any event to your liking such as chat message count, block break, death, etc. Utilizes PAPI support for creating events based off of placeholders. 
 
+:::info
+
+Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
+
+:::
+
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>
 - Server Version: **1.21** (Paper)

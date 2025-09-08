@@ -4,6 +4,12 @@ title: "Introduction"
 # GETTING STARTED
 Sentinel aims at evolving the standard NPC systems into a more advanced NPC plugin with ModelEngine/BetterModel support which then pairs beautifully with view conditions, per player actions, look at/look off conditions and much more. Check out more features down below!
 
+:::info
+
+Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
+
+:::
+
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>
 - Server Version: **1.21** (Paper)

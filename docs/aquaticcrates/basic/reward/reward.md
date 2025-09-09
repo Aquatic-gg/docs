@@ -211,7 +211,7 @@ Define rarities to individual rewards to increase certain chances!
 
 ## LIMITS
 
-This feature allows you to set rewards to be won either globally or individually a certain amount of times. 
+This feature allows you to set rewards to be won either globally or individually a certain amount of times.
 
 <Page url="aquaticcrates/basic/reward/winlimits">Win Limits</Page>
 
@@ -231,9 +231,9 @@ examplereward:
 **Global options:**
 - ``negate`` - negates the condition (true becomes false and false becomes true)
 
-## VARIABLES
+<Page url="aquaticcrates/basic/reward/rewardrequirements">Requirements</Page>
 
-## PREVIEW FALLBACK ITEM
+## VARIABLES
 
 ## ACTIONS
 

@@ -7,6 +7,12 @@ Aquatic Crates is a feature rich crate plugin aimed to stretch the boundaries of
 
 Want to give yourself a challenge? Use our scripting system in crate animations and make your server one of a kind!
 
+:::info
+
+Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
+
+:::
+
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>
 - Server Version: **1.21** (Paper)

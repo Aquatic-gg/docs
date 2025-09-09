@@ -2,7 +2,13 @@
 title: "Introduction"
 ---
 # GETTING STARTED
+info here
 
+:::info
+
+Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
+
+:::
 
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>

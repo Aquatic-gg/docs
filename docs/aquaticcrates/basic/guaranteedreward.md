@@ -1,4 +1,7 @@
-# Guaranteed Reward
+---
+title: "Guaranteed Reward"
+---
+# GUARANTEED REWARDS
 
 Using guaranteed rewards you can setup what kind of reward should be won at Xth crate opening.
 

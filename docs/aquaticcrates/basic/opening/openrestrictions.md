@@ -8,15 +8,15 @@ Open conditions of the crate. When conditions are not met, fail-actions can be e
 
 <Page url="aquaticcrates/basic/animations/failanimation">Open Animation</Page>
 
-All conditions got ``negate`` option using which you can switch the returned boolen. (from true to false, from  false to true)
+All conditions that have the ``negate`` option you can switch the returned boolen. (from true to false, from  false to true)
 
 ``negate: true``
 
-## Condition types
+## CONDITION TYPES
 
-### Permission
+### PERMISSION
 
-Limits opening to players with certain permission
+Limits opening to players with certain permission.
 
 ```yml
 open-restrictions:
@@ -24,7 +24,7 @@ open-restrictions:
     permission: "example.permission"
 ```
 
-### Week repeat
+### WEEK REPEAT
 
 Checks if current week of year is divisible by number.
 
@@ -34,7 +34,7 @@ open-restrictions:
     week: 2 # Every 2nd week
 ```
 
-### Day repeat
+### DAY REPEAT
 
 Checks if current day of year is divisible by number.
 
@@ -45,9 +45,9 @@ open-restrictions:
 ```
 
 
-### All animations global radius restriction
+### All ANIMATIONS GLOBAL RADIUS RESTRICTION
 
-Using this you can limit how many animations can be played by ANY crate with ANY animation by ANY player in defined radius.
+Using this you can limit how many animations can be played by ANY crate with ANY animation by ANY player in a defined radius.
 
 ```yml
 open-restrictions:
@@ -55,9 +55,9 @@ open-restrictions:
     radius: 1.0
 ```
 
-### All animations per player radius restriction
+### ALL ANIMATIONS PER PLAYER RADIUS RESTRICTION
 
-Using this you can limit how many animations can be played by ANY crate with ANY animation by certain player in defined radius.
+Using this you can limit how many animations can be played by ANY crate with ANY animation by a certain player in a defined radius.
 
 ```yml
 open-restrictions:
@@ -65,9 +65,9 @@ open-restrictions:
     radius: 1.0
 ```
 
-### Per animation global radius restrction
+### PER ANIMATION GLOBAL RADIUS RESTRICTION
 
-Using this you can limit how many current crate's animations by ANY player in defined radius.
+Using this you can limit how many current crate animations by ANY player in a defined radius.
 
 ```yml
 open-restrictions:
@@ -75,9 +75,9 @@ open-restrictions:
     radius: 1.0
 ```
 
-### Per animation per player radius restriction
+### PER ANIMATION PER PLAYER RADIUS RESTRICTION
 
-Using this you can limit how many current crate's animations by certain player in defined radius.
+Using this you can limit how many current crate animations by a certain player in a defined radius.
 
 ```yml
 open-restrictions:
@@ -85,9 +85,9 @@ open-restrictions:
     radius: 1.0
 ```
 
-### Global openings limit
+### GLOBAL OPENINGS LIMIT
 
-Limit of how many times can be crate opened in TOTAL by all players.
+Limit of how many times a crate can be opened in TOTAL by all players.
 
 ```yml
 open-restrictions:
@@ -96,9 +96,9 @@ open-restrictions:
     limit: 10
 ```
 
-### Player openings limit
+### PLAYER OPENINGS LIMIT
 
-Limit of how many times can be crate opened in TOTAL by certain player.
+Limit of how many times a crate can be opened in TOTAL by a certain player.
 
 ```yml
 open-restrictions:
@@ -107,9 +107,9 @@ open-restrictions:
     limit: 10
 ```
 
-### Empty Inventory Slots
+### EMPTY INVENTORY SLOTS
 
-Checks if player has certain amount of empty slots in his inventory.
+Checks if a player has a certain amount of empty slots in their inventory.
 
 ```yml
 open-restrictions:
@@ -117,9 +117,9 @@ open-restrictions:
     slots: 2
 ```
 
-### World blacklist
+### WORLD BLACKLIST
 
-Blacklist of worlds where crate cannot be opened.
+Blacklist of worlds where crates cannot be opened.
 
 ```yml
 open-restrictions:

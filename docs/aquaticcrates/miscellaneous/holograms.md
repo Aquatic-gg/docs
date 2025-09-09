@@ -2,44 +2,30 @@
 
 Utilizing new display entities you are now able to customize holograms even further to your preference! 
 
-## KEY
+## Simple hologram usage
+```yml
+hologram:
+  offset: "0;2;0"
+  lines:
+    - "Line 1\nLine 2 (Multiline)"
+    - "Line 3"
+```
 
-- `offset: "0;0;0"`
-    - Offset of the hologram location. X;Y;Z
-- `type: "text"`
-    - There are 3 options for the type of hologram. `text` uses the normal text display, `animated` combines multiple of either item/text/both, and `item` displays an item. 
-- `text: "line1\nline2"`
-    - The text displayed on the hologram. Use `\n` for a new line on the hologram.
-- `line-width: 175`
-    - The width of a single hologram line. Defaults to 150 if not present.
-- `stay: 20`
-    - Useful for animated holograms you are able to configure in ticks how long a hologram stays until the next hologram.
-- `has-shadow: true`
-    - Enable or disable text shadow. Defaults to false if not present.
-- `is-see-through: false`
-    - If you want the hologram to be see through. If not present it defaults to true.
-- `billboard: FIXED`
-    - Change how holograms function visually to the player. Options are: FIXED, CENTER (default), VERTICAL, HORIZONTAL. (Not to be biased but FIXED looks the best)
-- `default-background: true`
-    - Defaults to true and uses default `background-color`.
-- `background-color: 255;255;255;255`
-    - If `default-background` is set to false it will use this color background. Example: 255;255;255;255 equals to red, green, blue, alpha.
-- `height: 0.5`
-    - The height (space ) between lines.
-- `scale: 1.0`
-    - Change the scale (size) of the hologram. Defaults to 1.
+## Simple multiline usage
+```yml
+hologram:
+  offset: "0;2;0"
+  lines:
+    - - "Line 1"
+      - "Line 2"
+    - "Line 3"
+```
 
-- `conditions`
-    - Condition to show the hologram based on something. Check the bottom of the page for an example. 
-- `fail-line`
-    - something
+### What are multilines more?
+Multilines are simply multiple lines, but in a single entity!
+It is most optimized way for client to handle the hologram that can ever exist.
 
-example for condition here 
-
-
-## HOLOGRAM EXAMPLES
-
-Static Hologram:
+## Advanced usage
 ```yml
 hologram:
   offset: "0;2;0"
@@ -53,31 +39,128 @@ hologram:
       default-background: false
       background-color: "255;255;255;0"
       height: 0.5
+    - "Another line - simple"
 ```
 
-Animated Hologram:
+### Explanation
+Using this format you can set per-line properties, so each line can behave differently.
+You can also mix it with the simplified syntax.
+
+Read more about [line types (Click)](#line-types)
+
+## Simple animation
 ```yml
 hologram:
-  offset: "0;3;0"
+  offset: "0;2;0"
   lines:
-    - type: "animated"
-      height: 0.5
-      frames:
-        - type: "text"
-          stay: 20
-          text: "<gradient:#8833de:#5424a6>Another Frame\n&f\n&7[Left-Click] &fto Preview\n&7[Right-Click] &fto Open\n&7[Shift-Right-Click] &fto quick Open"
-          line-width: 200
-          height: 0.5
-          has-shadow: true
-          is-see-through: false
-          default-background: false
-          background-color: "255;255;255;0"
-        - type: "text"
-          stay: 20
-          text: "<gradient:#8833de:#5424a6>Example Crate\n&f\n&7[Left-Click] &fto Preview\n&7[Right-Click] &fto Open\n&7[Shift-Right-Click] &fto quick Open"
-          line-width: 200
-          height: 0.5
-          has-shadow: true
-          is-see-through: false
-          default-background: true
+    - - 10: Animated
+      - 10: Line
+    - "Another line"
 ```
+
+### Explanation
+In order to animate your hologram lines, you need to specify a duration of how long the frame should stay.
+For example 10 means that the frame is gonna stay for 10 ticks (0.5 second) and then switches to another frame.
+
+## Items in line animations
+```yml
+hologram:
+  offset: "0;2;0"
+  lines:
+    - - 10: "Example - text"
+      - 10: # Our item line frame
+          type: ITEM
+          item:
+            material: STONE
+```
+
+## Common options
+You can setup common options in hologram, so they are shared across all hologram lines and are not needed to be setup per line.
+
+### Example
+```yml
+hologram:
+  offset: "0;2;0"
+  scale: 1.0
+  billboard: FIXED
+  lines:
+    - "Example"
+    - "Line"
+```
+
+### Options
+``scale`` - Simply scale... (Decimal number) - OPTIONAL
+
+``billboard`` - What should be the billboard of the line, how should it rotate - OPTIONAL
+
+``transformation-duration`` - Interpolation of transformation, so when you for example change scale in animated line, it smoothly transforms to new scale (NUMBER) - OPTIONAL
+
+``teleport-interpolation`` - Interpolation of movement (NUMBER) - OPTIONAL
+
+``translation`` - Offset from base location (Vector - "X;Y;Z") - OPTIONAL
+
+## Line types
+
+### TEXT
+
+**Options**
+
+``text`` - Text of the line
+
+``background-color`` - Simply background color... (RGBA - "R;G;B;A") - OPTIONAL
+
+``line-width`` - Max width of the line in pixels. If the max is reached, the text is moved to another line (NUMBER) - OPTIONAL
+
+``height`` - Height of the line (Decimal number) - OPTIONAL
+
+``scale`` - Simply scale... (Decimal number) - OPTIONAL
+
+``billboard`` - What should be the billboard of the line, how should it rotate - OPTIONAL
+
+Billboard types can be checked [HERE](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Display.Billboard.html)
+
+``view-conditions`` - View conditions of the line - OPTIONAL
+
+``fail-line`` - What line should be shown when conditions are not met - OPTIONAL
+
+``has-shadow`` - If the text should have shadow (TRUE/FALSE) - OPTIONAL
+
+``is-see-through`` - (TRUE/FALSE) - OPTIONAL
+
+``transformation-duration`` - Interpolation of transformation, so when you for example change scale in animated line, it smoothly transforms to new scale (NUMBER) - OPTIONAL
+
+``teleport-interpolation`` - Interpolation of movement (NUMBER) - OPTIONAL
+
+``translation`` - Offset (Vector - "X;Y;Z") - OPTIONAL
+
+### ITEM
+
+**Options**
+
+``item`` - Simply item...
+
+Check more about item settings [HERE](https://docs.aquatic.gg/aquaticcrates/miscellaneous/itemsettings)
+
+``height`` - Height of the line (Decimal number) - OPTIONAL
+
+``scale`` - Simply scale... (Decimal number) - OPTIONAL
+
+``billboard`` - What should be the billboard of the line, how should it rotate - OPTIONAL
+
+Billboard types can be checked [HERE](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Display.Billboard.html)
+
+``view-conditions`` - View conditions of the line - OPTIONAL
+
+``fail-line`` - What line should be shown when conditions are not met - OPTIONAL
+
+``has-shadow`` - If the text should have shadow (TRUE/FALSE) - OPTIONAL
+
+``is-see-through`` - (TRUE/FALSE) - OPTIONAL
+
+``transformation-duration`` - Interpolation of transformation, so when you for example change scale in animated line, it smoothly transforms to new scale (NUMBER) - OPTIONAL
+
+``teleport-interpolation`` - Interpolation of movement (NUMBER) - OPTIONAL
+
+``translation`` - Offset (Vector - "X;Y;Z") - OPTIONAL
+
+### ANIMATED

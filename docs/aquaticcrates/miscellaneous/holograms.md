@@ -1,3 +1,6 @@
+---
+title: "Holograms"
+---
 # HOLOGRAMS
 
 Utilizing new display entities you are now able to customize holograms even further to your preference! 

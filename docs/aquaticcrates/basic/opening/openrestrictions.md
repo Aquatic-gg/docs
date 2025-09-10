@@ -136,3 +136,13 @@ open-restrictions:
     blacklist:
       - "SPAWN"
 ```
+
+### AVAILABLE REWARDS
+
+Checks if the crate has certain amount of rewards available.
+
+```yml
+open-restrictions:
+  - type: available-rewards
+    available-rewards: 1 # How many rewards should be available in order to open the crat
+```

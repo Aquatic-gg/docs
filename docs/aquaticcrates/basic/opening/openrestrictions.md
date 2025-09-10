@@ -8,7 +8,7 @@ Open conditions of the crate. When conditions are not met, fail-actions can be e
 
 <Page url="aquaticcrates/basic/animations/failanimation">Fail Animation</Page>
 
-All conditions that have the ``negate`` option you can switch the returned boolen. (from true to false, from  false to true)
+All conditions have the ``negate`` option you can switch the returned boolen. (from true to false, from false to true)
 
 ``negate: true``
 

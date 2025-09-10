@@ -40,7 +40,7 @@ Checks if current week of year is divisible by number.
 
 ```yml
 open-restrictions:
-  - type: week-repat
+  - type: week-repeat
     week: 2 # Every 2nd week
 ```
 
@@ -50,7 +50,7 @@ Checks if current day of year is divisible by number.
 
 ```yml
 open-restrictions:
-  - type: day-repat
+  - type: day-repeat
     week: 2 # Every 2nd week
 ```
 

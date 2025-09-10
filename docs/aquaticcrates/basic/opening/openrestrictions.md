@@ -6,11 +6,21 @@ title: Open Restrictions
 
 Open conditions of the crate. When conditions are not met, fail-actions can be executed and fail-animation can be played.
 
-<Page url="aquaticcrates/basic/animations/failanimation">Open Animation</Page>
+<Page url="aquaticcrates/basic/animations/failanimation">Fail Animation</Page>
 
 All conditions that have the ``negate`` option you can switch the returned boolen. (from true to false, from  false to true)
 
 ``negate: true``
+
+## Simplified Empty Crate Restriction
+
+By default the crate does not send any message when no rewards are available.
+
+However the plugin has a simplified syntax.
+
+```yml
+empty-crate-message: "There are no rewards available in that crate!"
+```
 
 ## CONDITION TYPES
 
@@ -43,7 +53,6 @@ open-restrictions:
   - type: day-repat
     week: 2 # Every 2nd week
 ```
-
 
 ### All ANIMATIONS GLOBAL RADIUS RESTRICTION
 

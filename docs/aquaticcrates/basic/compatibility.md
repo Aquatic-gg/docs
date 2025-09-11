@@ -40,6 +40,11 @@ To specify using Oraxen as a key or a reward it's very simple!
 
 `material: oraxen:<id>`
 
+## MMOITEMS
+To specify using MMOItems as a reward it's very simple! Registers the display name, lore, and enchantments.
+
+`material: mmoitem:<item_type>:<item_id>`
+
 ## COMET
 Comet (made by us) is a highly advanced particle system utilizing custom particles via a resource pack. [Join Discord To Purchase](https://discord.aquatic.gg)
 

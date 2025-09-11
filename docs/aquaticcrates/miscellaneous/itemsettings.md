@@ -21,6 +21,66 @@ lore:
 
 ---
 
+## Material type integrations
+
+### Vanilla
+
+```yml
+material: STONE
+```
+
+List of all materials can be found [HERE](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+
+### Nexo
+
+```yml
+material: "NEXO:ID"
+```
+
+### Oraxen
+
+```yml
+material: "ORAXEN:ID"
+```
+
+### MMOItems
+
+```yml
+material: "MMOITEM:ITEM_TYPE:ID"
+```
+
+### ItemsAdder
+
+```yml
+material: "IA:NAMESPACE:ID"
+```
+
+### HeadDatabase
+
+```yml
+material: "HDB:ID"
+```
+
+### Eco
+
+```yml
+material: "ECO:ID"
+```
+
+### CraftEngine
+
+```yml
+material: "CRAFTENGINE:ID"
+```
+
+### Base64
+
+```yml
+material: "BASE64:Value"
+```
+
+In order to get Base64 value of an item, you need to use ``/waves itemconvert`` ingame while holding the item in your main hand.
+
 ## Flags
 
 ### Display Name

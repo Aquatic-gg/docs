@@ -328,3 +328,27 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   deobfuscation-actions: []
   strip-colors: true
 ```
+
+#### Action bar message
+
+#### Broadcast message
+
+#### Command
+
+#### Give Item
+
+#### Message
+
+#### Title
+
+#### Conditional Actions
+
+#### Random Action
+
+#### Later Actions
+
+#### Start Ticker
+
+#### Timed Actions
+
+#### Close Inventory

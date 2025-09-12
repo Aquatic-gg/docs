@@ -112,7 +112,7 @@ TODO
 
 #### Update Model Tint
 
-:::alert
+:::info
 This is ModelEngine only action!
 :::
 

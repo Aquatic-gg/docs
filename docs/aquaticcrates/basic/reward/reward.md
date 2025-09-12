@@ -235,6 +235,19 @@ examplereward:
 
 ## VARIABLES
 
+Using reward variables you can save a custom variable that can be then used in actions & animations.
+
+In order to parse the value, you need to use ``%reward-var:<ID>%``
+
+```yml
+example-reward:
+  item:
+    ...
+  variables:
+    example: 10
+    example2: "Example text"
+```
+
 ## ACTIONS
 
 <Page url="aquaticcrates/miscellaneous/globalactions">Actions</Page>

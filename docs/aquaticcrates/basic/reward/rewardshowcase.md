@@ -38,6 +38,15 @@ Options:
 <Page url="aquaticcrates/miscellaneous/holograms">Holograms</Page>
 <Page url="aquaticcrates/basic/visuals">Visuals (Interactables)</Page>
 
+### Available placeholders
+
+- All animation placeholders
+- ``%reward-name%``
+- ``%chance%``
+- ``%rarity-name%``
+- ``%rarity-id%``
+- ``%reward-var:<ID>%`` - Reward variable
+
 ## Default Reward Showcase
 
 In AquaticCrates you can specify default reward showcase per each crate. Using this you won't need to specify showcase to each of your rewards. Additionally rewards got an ability of overriding the showcase while the option is specified in the reward's config section.

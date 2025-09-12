@@ -8,7 +8,7 @@ Reward showcase is a relatively new system which simplifies how rewards are disp
 
 **Example**
 ```yml
-reward-showcase:
+showcase:
   type: EMPTY
   hologram: []
   hologram-translation: "x;y;z"
@@ -38,11 +38,69 @@ Options:
 <Page url="aquaticcrates/miscellaneous/holograms">Holograms</Page>
 <Page url="aquaticcrates/basic/visuals">Visuals (Interactables)</Page>
 
+### Available placeholders
+
+- All animation placeholders
+- ``%reward-name%``
+- ``%chance%``
+- ``%rarity-name%``
+- ``%rarity-id%``
+- ``%reward-var:<ID>%`` - Reward variable
+
+## Default Reward Showcase
+
+In AquaticCrates you can specify default reward showcase per each crate. Using this you won't need to specify showcase to each of your rewards. Additionally rewards got an ability of overriding the showcase while the option is specified in the reward's config section.
+
+```yml
+key:
+  ...
+interactables:
+  ...
+showcase: # Default showcase
+  type: EMPTY
+  hologram: []
+  hologram-translation: "x;y;z"
+  interactables:
+    - type: MODELENGINE
+      model: example_model
+      offset: "0;0;0"
+  spawn-actions:
+    - type: message
+      message: "Reward showcase has been spawned"
+  despawn-actions:
+    - type: message
+      message: "Reward showcase has been despawned"
+rewards:
+  example-reward: # This reward has the default showcase
+    item:
+      material: STONE
+    actions:
+      - type: message
+        message: "Example Reward!"
+  another-reward: # This reward overrides the default showcase
+    item:
+      material: STONE
+    actions:
+      - type: message
+        message: "Example Reward!"
+    showcase: # The showcase override
+      type: EMPTY
+      hologram: []
+      hologram-translation: "x;y;z"
+      interactables:
+        - type: MODELENGINE
+          model: example_model
+          offset: "0;0;0"
+      spawn-actions: []
+      despawn-actions: []
+```
+
 ## ITEM REWARD SHOWCASE
+
 This type spawns an item entity (same as dropped item).
 
 ```yml
-reward-showcase:
+showcase:
   type: ITEM
   item:
     material: STONE
@@ -71,7 +129,7 @@ This showcase type was created in order to have complete freedom of what you wan
 Empty Reward showcase does not spawn anything on its own, it only spawns the Interactables, Hologram and the executed actions.
 
 ```yml
-reward-showcase:
+showcase:
   type: EMPTY
   hologram: []
   hologram-translation: "x;y;z"

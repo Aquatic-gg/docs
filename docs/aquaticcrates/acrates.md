@@ -18,9 +18,9 @@ Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
 - Server Version: **1.21** (Paper)
 - Dependency Plugins:
   - <Highlight color="red">**REQUIRED**</Highlight> Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
-  - <Highlight color="#213b47">**OPTIONAL**</Highlight> ModelEngine/BetterModel
+  - <Highlight color="#213b47">**OPTIONAL**</Highlight> ModelEngine/BetterModel/CraftEngine
   - <Highlight color="#213b47">**OPTIONAL**</Highlight> Nexo/ItemsAdder/Oraxen
-  - <Highlight color="#213b47">**OPTIONAL**</Highlight> MMOItems/
+  - <Highlight color="#213b47">**OPTIONAL**</Highlight> MMOItems/HeadDatabase/Eco
   - <Highlight color="#213b47">**OPTIONAL**</Highlight> PlaceholderAPI
 
 :::info
@@ -67,7 +67,6 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
   - Nexo Integration
   - ItemsAdder Integration
   - Oraxen Integration
-  - MMOItems Integration
   - PAPI Integration
 
 ### REWARDS SYSTEM
@@ -77,6 +76,10 @@ Need help setting up the plugin? Reach out to us here. [Discord Server](https://
   - Rarity/Weight system
   - Win Limits
   - Win Requirements
+  - MMOItems Integration
+  - HeadDatabase Integration
+  - Eco Integration
+  - CraftEngine Integration
   - Amount Ranges (Random amount kf a reward)
   - Guaranteed Rewards
   - Possible Reward Ranges (Able to win more rewards as a chance)

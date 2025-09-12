@@ -331,24 +331,120 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
 
 #### Action bar message
 
+```yml
+- type: actionbar
+  message: "Your actionbar message"
+```
+
 #### Broadcast message
+
+```yml
+- type: broadcast
+  message: "Your broadcast message"
+```
 
 #### Command
 
+```yml
+- type: command
+  player-executor: false # Optional
+  command: "say Hello %player%"
+```
+
 #### Give Item
+
+```yml
+- type: give-item
+  item:
+    material: STONE
+```
 
 #### Message
 
+```yml
+- type: message
+  message: "Your message"
+```
+
 #### Title
+
+```yml
+- type: title
+  title: "Your Title"
+  subtitle: "Subtitle text"
+  fade-in: 20
+  stay: 20
+  fade-out: 20
+```
 
 #### Conditional Actions
 
+```yml
+- type: conditional-actions
+  conditions: # Example conditions
+    - type: permission
+      permission: example.permission
+  actions:
+    - type: message
+      message: "You have got the permission!"
+  fail:
+    - type: message
+      message: "You do not have the permission!"
+```
+
 #### Random Action
+
+```yml
+- type: random-action
+  choose-amount: 1
+  choose-unique: false
+  actions:
+   - type: message
+     message: Example
+     chance: 10
+   - type: message
+     message: Example 2
+     chance: 20
+```
 
 #### Later Actions
 
+```yml
+- type: later-actions
+  delay: 10
+  actions:
+   - type: message
+     message: Example
+```
+
 #### Start Ticker
+
+```yml
+- type: start-ticker
+  id: ticker1
+  tick-every: 10 # Every 0.5s
+  repeat-limit: -1
+  actions:
+   - type: message
+     message: "This message is sent every 10 ticks!"
+```
 
 #### Timed Actions
 
+```yml
+- type: timed-actions
+  actions:
+    10:
+      - type: message
+          message: "This message is sent after 10 ticks!"
+    20:
+      - type: message
+          message: "This message is sent after 20 ticks!"
+       
+```
+
 #### Close Inventory
+
+```yml
+- type: close-inventory
+```

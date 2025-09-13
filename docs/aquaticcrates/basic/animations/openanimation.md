@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 title: Open Animations
+toc_min_heading_level: 2
+toc_max_heading_level: 5
 ---
 # Open Animation
 
@@ -112,7 +114,7 @@ TODO
 
 #### Update Model Tint
 
-:::alert
+:::info
 This is ModelEngine only action!
 :::
 

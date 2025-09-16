@@ -6,6 +6,8 @@ toc_max_heading_level: 5
 ---
 # OPEN ANIMATION
 
+Open animations are ran when a player successfully opens a crate with all conditional checks and permissions (if used) are passed.
+
 ## ACTIONS
 
 All actions available to currently use.

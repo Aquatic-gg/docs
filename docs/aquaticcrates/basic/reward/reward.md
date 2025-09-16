@@ -104,19 +104,19 @@ Rewards on Aquatic Crates are extremely configurable. Take a look down below on 
 The item is basically the key item of your reward!
 You can disable the item giving and let them item to be used just for preview, etc.
 
-### Disable giving
+### DISABLE GIVING
 In order to disable giving the item, set ``give-item`` to false
 
 ```yml
 give-item: false
 ```
 
-### Other Settings
+### OTHER SETTINGS
 All item options can be found here:
 
 <Page url="aquaticcrates/miscellaneous/itemsettings"></Page>
 
-## Chance
+## CHANCE
 Chance of the item can exceed 100.0 and is a floating number.
 The chance gets automatically calculated, so you do not have to have reward chances sum of 100.
 

@@ -9,11 +9,11 @@ title: Actions
 TODO
 
 ## TYPE
-There are 2 types of animations, `REGULAR` or `CINEMATIC`.
+There are 3 types of animations, `INSTANT`, `REGULAR`, `CINEMATIC`.
 
-Regular keeps the player in a physical state, while cinematic teleports the player to a specific location and then runs the animation.
+Instant has no animation, regular keeps the player in a physical state, while cinematic teleports the player to a specific location and then runs the animation.
 
-`type: regular` OR `type: cinematic`
+`type: instant` OR `type: regular` OR `type: cinematic`
 
 ## CINEMATIC LOCATION
 When using the cinematic animation this defines where the location of the player is teleported to and what camera angle the player looks at.

@@ -20,11 +20,11 @@ This example allows you to create multiple states that a player is able to see.
 ```yml
 interactables: []
 player-interactables:
-  state1: 
+  state1: # can be any ID
     type: MODELENGINE
     model: example1
     offset: "0;0.5;0" # X, Y, Z
-    spawned-by-default: true
+    spawned-by-default: true # if true this is what model will be spawned first
   state2:
     type: MODELENGINE
     model: example2

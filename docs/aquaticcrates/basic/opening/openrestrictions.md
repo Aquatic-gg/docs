@@ -12,7 +12,7 @@ All conditions have the ``negate`` option you can switch the returned boolen. (f
 
 ``negate: true``
 
-## Simplified Empty Crate Restriction
+## SIMPLIFIED EMPTY CRATE RESTRICTION
 
 By default the crate does not send any message when no rewards are available.
 

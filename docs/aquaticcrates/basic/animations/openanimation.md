@@ -4,15 +4,19 @@ title: Open Animations
 toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
-# Open Animation
+# OPEN ANIMATION
 
-## Options
+Open animations are ran when a player successfully opens a crate with all conditional checks and permissions (if used) are passed.
 
-## Actions
+## ACTIONS
 
-### Entity Actions
+All actions available to currently use.
 
-#### Show Entity
+### ENTITY ACTIONS
+
+Customizable entity actions as well as  passanger actions.
+
+#### SHOW ENTITY
 
 ```yml
 - type: show-entity
@@ -22,14 +26,14 @@ toc_max_heading_level: 5
   location-offset: "x;y;z"
 ```
 
-#### Hide Entity
+#### HIDE ENTITY
 
 ```yml
 - type: hide-entity
   id: "example-entity"
 ```
 
-#### Add Passenger
+#### ADD PASSANGER
 
 ```yml
 - type: add-passenger
@@ -37,7 +41,7 @@ toc_max_heading_level: 5
   seat: "entity:another-entity"
 ```
 
-#### Remove Passenger
+#### REMOVE PASSANGER
 
 ```yml
 - type: remove-passenger
@@ -45,17 +49,19 @@ toc_max_heading_level: 5
   seat: "entity:another-entity"
 ```
 
-#### Update Entity Properties
+#### UPDATE ENTITY PROPERTIES
 
 TODO
 
-### Inventory Actions
+### INVENTORY ACTIONS
 
-#### TODO
+TODO
 
-### Model Actions
+### MODEL ACTIONS
 
-#### Show Model (ModelEngine)
+Actions based on models when using ModelEngine/BetterModel.
+
+#### SHOW MODEL (MODELENGINE)
 
 ```yml
 - type: show-model
@@ -66,7 +72,7 @@ TODO
   location-offset: "0;0;0" # Optional
 ```
 
-#### Show Model (BetterModel)
+#### SHOW MODEL (BETTERMODEL)
 
 ```yml
 - type: show-bm-model
@@ -76,21 +82,21 @@ TODO
   location-offset: "0;0;0" # Optional
 ```
 
-#### Hide Model (ModelEngine)
+#### HIDE MODEL (MODELENGINE)
 
 ```yml
 - type: hide-model
   id: example-model
 ```
 
-#### Hide Model (BetterModel)
+#### HIDE MODEL (BETTERMODEL)
 
 ```yml
 - type: hide-bm-model
   id: example-model
 ```
 
-#### Play Animation (ModelEngine)
+#### PLAY ANIMATION (MODELENGINE)
 
 ```yml
 - type: play-model-animation
@@ -101,7 +107,7 @@ TODO
   speed: 1.0 # Optional
 ```
 
-#### Play Animation (BetterModel)
+#### PLAY ANIMATION (BETTERMODEL)
 
 ```yml
 - type: play-bm-model-animation
@@ -112,7 +118,7 @@ TODO
   speed: 1.0 # Optional
 ```
 
-#### Update Model Tint
+#### UPDATE MODEL TINT
 
 :::info
 This is ModelEngine only action!
@@ -124,9 +130,11 @@ This is ModelEngine only action!
   tint: "255;255;255"
 ```
 
-### Reward Showcase Actions
+### REWARD SHOWCASE OPTIONS
 
-#### Show Reward Showcase
+A relatively new option which allows for simpler customization of showing rewards. Checkout the REWARDSHOWCASE page for more info.
+
+#### SHOW REWARD SHOWCASE
 
 ```yml
 - type: show-reward-showcase
@@ -138,14 +146,14 @@ This is ModelEngine only action!
   power: 1.0 # Optional
 ```
 
-#### Hide Reward Showcase
+#### HIDE REWARD SHOWCASE
 
 ```yml
 - type: hide-reward-showcase
   id: showcase
 ```
 
-#### Update Reward Showcase
+#### UPDATE REWARD SHOWCASE
 
 ```yml
 - type: update-reward-showcase
@@ -153,9 +161,11 @@ This is ModelEngine only action!
   reward-id: example-reward
 ```
 
-### Block Actions
+### BLOCK ACTIONS
 
-#### Set Block
+Set block actions during an animation. 
+
+#### SET BLOCK
 
 ```yml
 - type: set-block
@@ -164,7 +174,7 @@ This is ModelEngine only action!
   offset: "0;0;0"
 ```
 
-#### Set Multiblock
+#### SET MULTIBLOCK
 
 ```yml
 - type: set-multiblock
@@ -175,9 +185,11 @@ This is ModelEngine only action!
     - "0;1;0"
 ```
 
-### BossBar Actions
+### BOSSBAR ACTIONS
 
-#### Show BossBar
+Animation bossbar actions.
+
+#### SHOW BOSSBAR
 
 ```yml
 - type: show-bossbar
@@ -188,14 +200,14 @@ This is ModelEngine only action!
   progress: 1.0 # Optional
 ```
 
-#### Hide BossBar
+#### HIDE BOSSBAR
 
 ```yml
 - type: hide-bossbar
   id: example
 ```
 
-#### Set BossBar data
+#### SET BOSSBAR DATA
 
 ```yml
 - type: set-bossbar-data
@@ -206,9 +218,11 @@ This is ModelEngine only action!
   progress: 1.0 # Optional
 ```
 
-### Hologram Actions
+### HOLOGRAM ACTIONS
 
-#### Show Hologram
+Animation holograms, for more info on hologram settings check out the HOLOGRAM page.
+
+#### SHOW HOLOGRAM
 
 ```yml
 - type: show-hologram
@@ -220,16 +234,18 @@ This is ModelEngine only action!
   seat: "entity:example" # Optional - attaches hologram to an entity
 ```
 
-#### Hide Hologram
+#### HIDE HOLOGRAM
 
 ```yml
 - type: hide-hologram
   id: example
 ```
 
-### Other Actions
+### OTHER ACTIONS
 
-#### Show Particle
+Other animation actions for example sound, particles and more.
+
+#### SHOW PARTICLE
 
 ```yml
 - type: particle
@@ -251,7 +267,7 @@ This is ModelEngine only action!
   location-offset: 1 # Optional
 ```
 
-#### Push Player
+#### PUSH PLAYER
 
 ```yml
 - type: push-player
@@ -263,7 +279,7 @@ This is ModelEngine only action!
 
 When a velocity or yaw & pitch is not specified, then vector is automatically calculated to push the player from the crate.
 
-#### Play Sound
+#### PLAY SOUND
 
 ```yml
 - type: play-sound
@@ -273,14 +289,14 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   category: AMBIENT # Optional
 ```
 
-#### Stop Sound
+#### STOP SOUND
 
 ```yml
-- type: play-sound
+- type: stop-sound
   sound: "ui.button_click"
 ```
 
-#### Throw Entity
+#### THROW ENTITY
 
 ```yml
 - type: throw-entity
@@ -291,7 +307,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   power: 1.0
 ```
 
-#### Variable
+#### VARIABLE
 
 ```yml
 - type: variable
@@ -301,11 +317,9 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
 
 #### Equipment
 
-```yml
+TODO
 
-```
-
-#### Rumbling Reward
+#### RUMBLING REWARD
 
 ```yml
 - type: rumbling-reward
@@ -318,7 +332,9 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   rumble-finish-actions: [] # Optional
 ```
 
-#### String Deobfuscation
+For example rumble actions like throwing a reward join our discord for any help you'd need!
+
+#### STRING DEOBFUSCATION
 
 ```yml
 - type: string-deobfuscation
@@ -331,21 +347,21 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   strip-colors: true
 ```
 
-#### Action bar message
+#### ACTION BAR MESSAGE
 
 ```yml
 - type: actionbar
   message: "Your actionbar message"
 ```
 
-#### Broadcast message
+#### BROADCAST MESSAGE
 
 ```yml
 - type: broadcast
   message: "Your broadcast message"
 ```
 
-#### Command
+#### COMMAND
 
 ```yml
 - type: command
@@ -353,7 +369,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   command: "say Hello %player%"
 ```
 
-#### Give Item
+#### GIVE ITEM
 
 ```yml
 - type: give-item
@@ -361,14 +377,14 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
     material: STONE
 ```
 
-#### Message
+#### MESSAGE
 
 ```yml
 - type: message
   message: "Your message"
 ```
 
-#### Title
+#### TITLE
 
 ```yml
 - type: title
@@ -379,7 +395,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
   fade-out: 20
 ```
 
-#### Conditional Actions
+#### CONDITIONAL ACTIONS
 
 ```yml
 - type: conditional-actions
@@ -394,7 +410,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
       message: "You do not have the permission!"
 ```
 
-#### Random Action
+#### RANDOM ACTIONS
 
 ```yml
 - type: random-action
@@ -409,7 +425,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
      chance: 20
 ```
 
-#### Later Actions
+#### LATER ACTIONS
 
 ```yml
 - type: later-actions
@@ -419,7 +435,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
      message: Example
 ```
 
-#### Start Ticker
+#### START TICKER
 
 ```yml
 - type: start-ticker
@@ -431,7 +447,9 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
      message: "This message is sent every 10 ticks!"
 ```
 
-#### Timed Actions
+Great to use when wanting sound to run every tick when pairing it with a rumble action! 
+
+#### TIMED ACTIONS
 
 ```yml
 - type: timed-actions
@@ -445,7 +463,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
        
 ```
 
-#### Close Inventory
+#### CLOSE INVENTORY
 
 ```yml
 - type: close-inventory

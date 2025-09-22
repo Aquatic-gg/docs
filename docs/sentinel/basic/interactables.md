@@ -24,7 +24,7 @@ player-interactables:
     type: MODELENGINE
     model: example1
     offset: "0;0.5;0" # X, Y, Z
-    spawned-by-default: true
+    spawned-by-default: true # if true this is what model will be spawned first
   state2:
     type: MODELENGINE
     model: example2

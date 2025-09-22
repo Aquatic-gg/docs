@@ -14,4 +14,5 @@ nearby-actions:
         animation: example
       - type: message
         message: "You have entered the range"
+      ...
 ```

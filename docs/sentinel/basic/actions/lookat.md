@@ -3,7 +3,7 @@ title: "Look At Actions"
 ---
 # LOOK AT ACTIONS
 
-Look at actions allow you to change the model based on if a player is looking at or off a model.
+Look at actions allow you to change the model or add actions based on if a player is looking at or off a model.
 
 For each model a "bound" area must be set.
 
@@ -15,7 +15,7 @@ look-at:
 
 ## LOOK AT
 
-Once looking at a model within bounds. This example hides a model but shows a different one.
+Once looking at a model within bounds. This example hides a model but shows a different one while sending a test message.
 
 ```yml
   look-at-actions:
@@ -30,7 +30,8 @@ Once looking at a model within bounds. This example hides a model but shows a di
 
 ## LOOK OFF
 
-Once looking off a model within bounds. This example shows a model but hides a different one.
+Once looking off a model within bounds. This example shows a model but hides a different one while sending a test
+message.
 
 ```yml
   look-off-actions:
@@ -40,4 +41,5 @@ Once looking off a model within bounds. This example shows a model but hides a d
       id: state1
     - type: hide-player-interactable
       id: state2
+    ...
 ```

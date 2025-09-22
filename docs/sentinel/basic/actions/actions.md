@@ -1,4 +1,6 @@
-
+---
+title: "Actions"
+---
 # ACTIONS
 
 Actions that are able to be ran throughout the plugin.

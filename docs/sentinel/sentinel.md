@@ -12,7 +12,7 @@ Join our demo showcase server at **demo.aquatic.gg** (1.21.8)!
 
 ## INSTALLATION REQUIREMENTS
 - **Java 21** or <span style={{ color: 'green' }}>newer</span>
-- Server Version: **1.21** (Paper)
+- Supported Versions: **1.21.1**, **1.21.4**, **1.21.5**, **1.21.7**, **1.21.8** & **1.21.9** (Paper)
 - Dependency Plugins:
   - <Highlight color="red">**REQUIRED**</Highlight> Waves [Download](https://www.spigotmc.org/resources/waves-core-of-aquatic-plugins.119819/) (Will autodownload on fresh install) 
   - <Highlight color="#213b47">**OPTIONAL**</Highlight> ModelEngine/BetterModel

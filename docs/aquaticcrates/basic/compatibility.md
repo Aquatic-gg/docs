@@ -131,3 +131,15 @@ The entire plugin uses minimessage formatting for all colors/gradients. View the
 
 `%aquaticcrates_repeatable-milestone_<crate>_<milestone>_name%`
   - Returns the display name of the next repeatable milestone.
+
+`%aquaticcrates_guaranteed_<crate>_next_remaining%`
+  - Returns the amount until the next guaranteed reward
+
+`%aquaticcrates_guaranteed_<crate>_next_required%`
+  - Returns the next required guaranteed reward in order to progress past it
+
+`%aquaticcrates_guaranteed_<crate>_next_id%`
+  - Returns the id of the guaranteed reward
+
+`%aquaticcrates_guaranteed_<crate>_next_name%`
+  - Returns the guaranteed name of the next reward

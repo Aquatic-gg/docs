@@ -57,6 +57,21 @@ const config: Config = {
     ],
   ],
 
+  // Local search (community plugin)
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        docsRouteBasePath: '/',
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/aquatic-banner.png',
@@ -96,6 +111,7 @@ const config: Config = {
           position: 'left',
           label: 'Dialogues',
         },
+        { type: 'search', position: 'right' },
         {
           href: 'https://github.com/Aquatic-gg',
           label: 'GitHub',

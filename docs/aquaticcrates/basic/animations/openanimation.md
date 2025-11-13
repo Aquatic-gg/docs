@@ -283,7 +283,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
 
 ```yml
 - type: play-sound
-  sound: "ui.button_click"
+  sound: "minecraft:ui.button_click"
   pitch: 1.0 # Optional
   volume: 100 # Optional
   category: AMBIENT # Optional
@@ -293,7 +293,7 @@ When a velocity or yaw & pitch is not specified, then vector is automatically ca
 
 ```yml
 - type: stop-sound
-  sound: "ui.button_click"
+  sound: "minecraft:ui.button_click"
 ```
 
 #### THROW ENTITY
